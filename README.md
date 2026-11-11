@@ -14,7 +14,7 @@ python train.py DATA_FOLDER OUTPUT_FOLDER
 ```
 
 `DATA_FOLDER` holds the competition files (`train.jsonl`, `test.jsonl`, `type_chart_gen2.csv`) and defaults to `./data`. The data is not included in this repository.
-The run takes about 5 minutes, prints the cross validation accuracy and writes `submission_final.csv`, which is identical to `submissions.csv`.
+The run takes about 5 minutes, prints the cross validation accuracy and writes `submission_final.csv`. On the Windows laptop that made our submission it is identical to `submissions.csv`; on other machines a few borderline predictions can differ because of floating point differences (on Kaggle, 99.2% match).
 
 On Kaggle, `PokePredictors_notebook.ipynb` clones this repository and runs the same pipeline step by step.
 
