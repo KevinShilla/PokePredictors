@@ -1,0 +1,4 @@
+# exact versions used to make our final submission (other versions can change a few predictions)
+numpy==2.4.6
+pandas==2.2.3
+scikit-learn==1.5.2

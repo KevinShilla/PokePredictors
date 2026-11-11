@@ -1,0 +1,6 @@
+# competition data is large and must not be redistributed: download it from Kaggle
+data/
+submissions/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
